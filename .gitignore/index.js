@@ -39,23 +39,23 @@ bot.on('message', message => {
     }
 
     if (message.content === "Arterius"){
-        message.channel.sendFile('./Arterius.jpg');
+        message.channel.sendFile('./image/Arterius.jpg');
     }
 
     if (message.content === "Aryl"){
-        message.channel.sendFile('./Aryl.jpg');
+        message.channel.sendFile('./image/Aryl.jpg');
     }
     
     if (message.content === "Natsou"){
-        message.channel.sendFile('./Natsou.gif');
+        message.channel.sendFile('./image/Natsou.gif');
     }
 
     if (message.content === "Beethoven"){
-        message.channel.sendFile('./Beethoven.jpg');
+        message.channel.sendFile('./image/Beethoven.jpg');
     }
 
     if (message.content === "Ashyra"){
-        message.channel.sendFile('./Ashyra.gif');
+        message.channel.sendFile('./image/Ashyra.gif');
     }
 
     if (message.content === prefix + "rand"){
