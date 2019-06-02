@@ -57,6 +57,11 @@ bot.on('message', message => {
     if (message.content === "Ashyra"){
         message.channel.sendFile('./image/Ashyra.gif');
     }
+    
+    if (message.content === "Shadney"){
+        message.channel.sendFile('./image/Shadney_gif.gif');
+    }
+
 
     if (message.content === prefix + "rand"){
         random();
